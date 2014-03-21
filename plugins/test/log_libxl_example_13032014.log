@@ -1,0 +1,28 @@
+libxl: debug: libxl_event.c:514:watchfd_callback: watch w=0x7ffdf8001db0 wpath=@releaseDomain token=3/12: event epath=@releaseDomain
+libxl: debug: libxl.c:1005:domain_death_xswatch_callback: [evg=0x7ffdcc005a50:17] from domid=17 nentries=1 rc=1
+libxl: debug: libxl.c:1016:domain_death_xswatch_callback: [evg=0x7ffdcc005a50:17]   got=domaininfos[0] got->domain=17
+libxl: debug: libxl.c:1043:domain_death_xswatch_callback:  exists shutdown_reported=0 dominf.flags=10004
+libxl: debug: libxl.c:1055:domain_death_xswatch_callback:  shutdown reporting
+libxl: debug: libxl.c:1009:domain_death_xswatch_callback: [evg=0] all reported
+libxl: debug: libxl.c:1073:domain_death_xswatch_callback: domain death search done
+libxl: debug: libxl_event.c:1149:egc_run_callbacks: event 0x7ffe25f5f940 callback type=domain_shutdown
+libxl: debug: libxl.c:1005:domain_death_xswatch_callback: [evg=0x7ffdcc002510:18] from domid=18 nentries=1 rc=1
+libxl: debug: libxl.c:1016:domain_death_xswatch_callback: [evg=0x7ffdcc002510:18]   got=domaininfos[0] got->domain=18
+libxl: debug: libxl.c:1043:domain_death_xswatch_callback:  exists shutdown_reported=0 dominf.flags=ffff0008
+libxl: debug: libxl.c:1009:domain_death_xswatch_callback: [evg=0] all reported
+libxl: debug: libxl.c:1073:domain_death_xswatch_callback: domain death search done
+libxl: debug: libxl_event.c:514:watchfd_callback: watch w=0x7ffdf8001db0 wpath=@releaseDomain token=3/19: event epath=@releaseDomain
+libxl: debug: libxl.c:1005:domain_death_xswatch_callback: [evg=0x7ffdcc002510:18] from domid=18 nentries=1 rc=1
+libxl: debug: libxl.c:1016:domain_death_xswatch_callback: [evg=0x7ffdcc002510:18]   got=domaininfos[0] got->domain=18
+libxl: debug: libxl.c:1043:domain_death_xswatch_callback:  exists shutdown_reported=0 dominf.flags=4
+libxl: debug: libxl.c:1055:domain_death_xswatch_callback:  shutdown reporting
+libxl: debug: libxl.c:1009:domain_death_xswatch_callback: [evg=0] all reported
+libxl: debug: libxl.c:1073:domain_death_xswatch_callback: domain death search done
+libxl: debug: libxl_event.c:1149:egc_run_callbacks: event 0x7ffe25f5cfa0 callback type=domain_shutdown
+libxl: debug: libxl_event.c:570:libxl__ev_xswatch_register: watch w=0x7ffe040032d0 wpath=@releaseDomain token=3/4: register slotnum=3
+libxl: debug: libxl_event.c:514:watchfd_callback: watch w=0x7ffe040032d0 wpath=@releaseDomain token=3/4: event epath=@releaseDomain
+libxl: debug: libxl.c:1005:domain_death_xswatch_callback: [evg=0x7ffe040087f0:19] from domid=19 nentries=1 rc=1
+libxl: debug: libxl.c:1016:domain_death_xswatch_callback: [evg=0x7ffe040087f0:19]   got=domaininfos[0] got->domain=19
+libxl: debug: libxl.c:1043:domain_death_xswatch_callback:  exists shutdown_reported=0 dominf.flags=ffff0020
+libxl: debug: libxl.c:1009:domain_death_xswatch_callback: [evg=0] all reported
+libxl: debug: libxl.c:1073:domain_death_xswatch_callback: domain death search done

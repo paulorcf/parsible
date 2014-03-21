@@ -1,0 +1,2 @@
+libxl: debug: libxl.c:1043:domain_death_xswatch_callback:  exists shutdown_reported=0 dominf.flags=10004
+libxl: debug: libxl.c:1055:domain_death_xswatch_callback:  shutdown reporting
